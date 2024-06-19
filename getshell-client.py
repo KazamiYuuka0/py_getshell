@@ -15,7 +15,7 @@ while True:
 
 #伪装
 def task1():
-    subprocess.call("Plain Craft Launcher 2.exe")
+    subprocess.call("Plain Craft Launcher 2.exe") # 打开另一文件或其他
 #操作
 def task2():
     while True:
