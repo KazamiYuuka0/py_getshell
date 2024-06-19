@@ -4,7 +4,7 @@ import socket
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 # 绑定IP地址和端口
-server_address = ('45.77.35.154', 6667)  # 使用本地地址localhost，端口12345
+server_address = ('45.77.35.154', 6667)  # 
 server_socket.bind(server_address)
 
 # 开始监听连接
