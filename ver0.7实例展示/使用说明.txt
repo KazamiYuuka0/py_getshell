@@ -1,0 +1,12 @@
+运行util5.py自动编译产生实例temp.exe
+运行0.5server.py以启动接收端
+
+这里使用pyinstaller编译程序，因此需要在/dist下找到temp.exe
+exe和ico文件为必要文件，若删除无法运行
+
+请先运行util5.py，再运行server.py，最后运行/dist/temp.exe
+对文件用了SM4加密，因此解密需要一段时间，大约3-5分钟，可以在任务管理器检查程序是否正常运作。
+服务端需要按enter键刷新状态
+
+服务端/help可以查看命令
+选择连接的客机后，/cmd+命令 以控制CMD执行命令，例如/cmd ipconfig
